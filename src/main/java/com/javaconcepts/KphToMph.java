@@ -1,3 +1,5 @@
+package com.javaconcepts;
+
 import java.util.Scanner;
 
 public class KphToMph {

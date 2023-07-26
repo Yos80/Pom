@@ -1,3 +1,5 @@
+package com.javaconcepts;
+
 public class StaticAndNonStatic {
 
     String name = "Joe"; //non static global var
@@ -16,10 +18,10 @@ public class StaticAndNonStatic {
 
         /*
         System.out.println(name);
-        System.out.println(StaticAndNonStatic.name);
+        System.out.println(com.javaconcepts.StaticAndNonStatic.name);
 
         sendMail();
-        StaticAndNonStatic.sendMail();
+        com.javaconcepts.StaticAndNonStatic.sendMail();
 
          */
 

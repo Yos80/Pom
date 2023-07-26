@@ -31,11 +31,11 @@ public class LoginPage extends TestBase {
         return swagLogo.isDisplayed();
     }
 
-    public HomePage login(String un, String pwd){
+    public void login(String un, String pwd){
         username.sendKeys(un);
         password.sendKeys(pwd);
         loginBtn.click();
 
-        return new HomePage();
+
     }
 }

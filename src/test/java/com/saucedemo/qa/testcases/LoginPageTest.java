@@ -1,7 +1,6 @@
 package com.saucedemo.qa.testcases;
 
 import com.saucedemo.qa.base.TestBase;
-import com.saucedemo.qa.pages.HomePage;
 import com.saucedemo.qa.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.SkipException;
@@ -9,7 +8,6 @@ import org.testng.annotations.*;
 
 public class LoginPageTest extends TestBase {
     LoginPage loginPage;
-    HomePage homePage;
 
     public LoginPageTest(){
         super();
@@ -35,7 +33,9 @@ public class LoginPageTest extends TestBase {
 
     @Test(priority = 3)
     public void loginTest(){
-     homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+     loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+
+
     }
 
     @Test(priority = 4)

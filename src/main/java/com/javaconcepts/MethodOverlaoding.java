@@ -1,3 +1,5 @@
+package com.javaconcepts;
+
 public class MethodOverlaoding {
 
     //We cannot create 2 (or more) methods (either separate or method inside method) with the same name and same input param
